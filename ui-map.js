@@ -57,7 +57,7 @@
           var infoWindow = model(scope);
 
           if (!infoWindow) {
-            infoWindow = new google.maps.InfoWindow(opts);
+            infoWindow = new InfoBox(opts);
             model.assign(scope, infoWindow);
           }
 
